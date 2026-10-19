@@ -1,14 +1,22 @@
 Copyright (c) 2026 WTX-SMP. All rights reserved.
 
-This repository is a product catalogue. It contains descriptive material only — no plugin source code
-and no compiled plugin files.
+The WTX-SMP plugins are free to download and use on any Minecraft server.
 
-The WTX-SMP plugins are proprietary commercial software. They are licensed per server after purchase.
-Purchasing a licence does not grant permission to redistribute, resell, publish or share the plugin
-files or their source code.
+You may:
+- download the released JAR files and use them on your own server(s);
+- share a link to this repository or to its releases.
 
-The text, names, branding and images in this repository may not be copied or reused without written
-permission.
+You may not:
+- resell the plugins or charge others for access to them;
+- republish the JAR files under another name or present them as your own product;
+- distribute modified copies of the JAR files as your own;
+- publish or redistribute the plugin source code (it is not published here).
+
+The JAR files are provided "AS IS", without warranty of any kind, express or implied, including but not
+limited to the warranties of merchantability, fitness for a particular purpose and non-infringement. In no
+event shall the author be liable for any claim, damages or other liability arising from the use of the
+software.
 
 Third-party product names (Paper, Vault, EssentialsX, GeyserMC, Floodgate, Simple Voice Chat) belong to
-their respective owners and are referenced only to describe compatibility.
+their respective owners and are referenced only to describe compatibility. Third-party plugins are not
+included in this repository.
