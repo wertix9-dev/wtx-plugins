@@ -14,6 +14,7 @@ Every JAR is attached to the release. Direct links:
 
 | Plugin | Download |
 | --- | --- |
+| WTXCore | [WTXCore-1.0.0.jar](https://github.com/wertix9-dev/wtx-plugins/releases/latest/download/WTXCore-1.0.0.jar) |
 | WTXScoreboard | [WTXScoreboard-1.0.0.jar](https://github.com/wertix9-dev/wtx-plugins/releases/latest/download/WTXScoreboard-1.0.0.jar) |
 | WTXShop | [WTXShop-1.0.0.jar](https://github.com/wertix9-dev/wtx-plugins/releases/latest/download/WTXShop-1.0.0.jar) |
 | WTXMoneyShop | [WTXMoneyShop-1.0.0.jar](https://github.com/wertix9-dev/wtx-plugins/releases/latest/download/WTXMoneyShop-1.0.0.jar) |
@@ -32,11 +33,23 @@ The WTXGuard Anti-Xray examples are attached as well:
 [paper-world-defaults example](https://github.com/wertix9-dev/wtx-plugins/releases/latest/download/WTXGuard-paper-world-defaults-anti-xray.example.yml) ·
 [Nether example](https://github.com/wertix9-dev/wtx-plugins/releases/latest/download/WTXGuard-paper-world-nether-anti-xray.example.yml)
 
+## New in this update
+
+- **WTXCore** (new plugin): `/wtx version`, `/wtx list` with update status, `/wtx reloadall`
+- Team chat (`/team chat`) and automatic leadership handover in WTXTeams
+- `/wtxpoints top|pay` and `/wtxshop gift` in WTXShop
+- Auction sorting (`/ah sort`) and `/moneyshop top` in WTXMoneyShop
+- Per-player sidebar toggle (`/wtxsb toggle`) and abbreviated numbers in WTXScoreboard
+- `/wtxguard log` and `/wtxguard antixray verify`
+- `/pvp list` and no logout punishment while the server is shutting down
+- `/combatplus top`, `/tparequests`, AFK-aware one-player sleep
+
 ## What is included
 
 | Plugin | What it does |
 | --- | --- |
-| **WTXScoreboard** | Compact grayscale sidebar (team, kills, deaths, Money, Points, online), TAB header/list, rank tags, optional chat tags |
+| **WTXCore** | Suite helper: `/wtx version`, `/wtx list` (with update status), `/wtx reloadall` |
+| **WTXScoreboard** | Compact grayscale sidebar (team, kills, deaths, Money, Points, online), TAB header/list, rank tags, optional chat tags, per-player `/wtxsb toggle` |
 | **WTXShop** | WTX Points shop with `/dailypoints`, 40 pets, 40 particle trails, 40 auras, 48 cosmetic titles with animated colour styles |
 | **WTXMoneyShop** | Category shop for every item with quantity buttons and search, `/worth`, `/sell`, `/pay`, `/moneygive`, auction house with search, taxes, expiry and transaction history |
 | **WTXTeams** | Teams, filtered names, colours, shared bank, paid chunk claims, team homes and waystones, scheduled raids with real kill-based outcomes, `/teamlist`, `/teamtop` |
