@@ -28,6 +28,15 @@ Every JAR is attached to the release. Direct links:
 | WTXEvents | [WTXEvents-1.0.0.jar](https://github.com/wertix9-dev/wtx-plugins/releases/latest/download/WTXEvents-1.0.0.jar) |
 | WTXSleep | [WTXSleep-1.0.0.jar](https://github.com/wertix9-dev/wtx-plugins/releases/latest/download/WTXSleep-1.0.0.jar) |
 | WTXTPA | [WTXTPA-1.0.0.jar](https://github.com/wertix9-dev/wtx-plugins/releases/latest/download/WTXTPA-1.0.0.jar) |
+| WTXWebhooks | [WTXWebhooks-1.0.0.jar](https://github.com/wertix9-dev/wtx-plugins/releases/latest/download/WTXWebhooks-1.0.0.jar) |
+| WTXBackup | [WTXBackup-1.0.0.jar](https://github.com/wertix9-dev/wtx-plugins/releases/latest/download/WTXBackup-1.0.0.jar) |
+| WTXLeaderboards | [WTXLeaderboards-1.0.0.jar](https://github.com/wertix9-dev/wtx-plugins/releases/latest/download/WTXLeaderboards-1.0.0.jar) |
+| WTXNotes | [WTXNotes-1.0.0.jar](https://github.com/wertix9-dev/wtx-plugins/releases/latest/download/WTXNotes-1.0.0.jar) |
+| WTXPolls | [WTXPolls-1.0.0.jar](https://github.com/wertix9-dev/wtx-plugins/releases/latest/download/WTXPolls-1.0.0.jar) |
+| WTXAnalytics | [WTXAnalytics-1.0.0.jar](https://github.com/wertix9-dev/wtx-plugins/releases/latest/download/WTXAnalytics-1.0.0.jar) |
+| WTXGraves | [WTXGraves-1.0.0.jar](https://github.com/wertix9-dev/wtx-plugins/releases/latest/download/WTXGraves-1.0.0.jar) |
+| WTXWaypoints | [WTXWaypoints-1.0.0.jar](https://github.com/wertix9-dev/wtx-plugins/releases/latest/download/WTXWaypoints-1.0.0.jar) |
+| WTXDuels | [WTXDuels-1.0.0.jar](https://github.com/wertix9-dev/wtx-plugins/releases/latest/download/WTXDuels-1.0.0.jar) |
 
 The WTXGuard Anti-Xray examples are attached as well:
 [paper-world-defaults example](https://github.com/wertix9-dev/wtx-plugins/releases/latest/download/WTXGuard-paper-world-defaults-anti-xray.example.yml) ·
@@ -43,6 +52,18 @@ The WTXGuard Anti-Xray examples are attached as well:
 - `/wtxguard log` and `/wtxguard antixray verify`
 - `/pvp list` and no logout punishment while the server is shutting down
 - `/combatplus top`, `/tparequests`, AFK-aware one-player sleep
+
+### New plugins
+
+- **WTXWebhooks** — one Discord relay (join/quit/death/server start/stop) with a public API for other plugins
+- **WTXBackup** — scheduled async ZIP backups with retention and path-escape protection
+- **WTXLeaderboards** — `/top money|points|kills|deaths|playtime|raids`
+- **WTXNotes** — staff notes per player, never shown to the player
+- **WTXPolls** — GUI polls with automatic close
+- **WTXAnalytics** — economy/server overview for admins
+- **WTXGraves** — death graves with anti-dupe and anti-item-loss guarantees
+- **WTXWaypoints** — public paid teleport network
+- **WTXDuels** — 1v1 duels with escrowed bets
 
 ## What is included
 
@@ -62,6 +83,15 @@ The WTXGuard Anti-Xray examples are attached as well:
 | **WTXEvents** | Rotating, balanced PvP modifiers on a schedule, with warnings and restart-safe state |
 | **WTXSleep** | One player is enough to skip the night, with dimension-aware handling |
 | **WTXTPA** | Teleport requests with expiry, cooldowns, delays, safe-destination checks and combat blocking |
+| **WTXWebhooks** | Discord relay for join/quit/death/server events, plus a public API for other plugins |
+| **WTXBackup** | Scheduled async ZIP backups with retention, path-escape protection and no silent deletion |
+| **WTXLeaderboards** | `/top` for money, points, kills, deaths, playtime and raid wins |
+| **WTXNotes** | Staff notes per player, never visible to the player |
+| **WTXPolls** | Server polls with GUI voting and automatic close |
+| **WTXAnalytics** | Read-only overview: money in circulation, points, teams, auctions, active event |
+| **WTXGraves** | Death graves with one-viewer locks, save-before-give and expiry that never discards items |
+| **WTXWaypoints** | Public paid teleport network with GUI, cooldown and safe-destination checks |
+| **WTXDuels** | 1v1 duels with escrowed bets, arenas and crash-safe refunds |
 
 ## Requirements
 
