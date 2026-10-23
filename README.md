@@ -37,6 +37,16 @@ Every JAR is attached to the release. Direct links:
 | WTXGraves | [WTXGraves-1.0.0.jar](https://github.com/wertix9-dev/wtx-plugins/releases/latest/download/WTXGraves-1.0.0.jar) |
 | WTXWaypoints | [WTXWaypoints-1.0.0.jar](https://github.com/wertix9-dev/wtx-plugins/releases/latest/download/WTXWaypoints-1.0.0.jar) |
 | WTXDuels | [WTXDuels-1.0.0.jar](https://github.com/wertix9-dev/wtx-plugins/releases/latest/download/WTXDuels-1.0.0.jar) |
+| WTXKits | [WTXKits-1.0.0.jar](https://github.com/wertix9-dev/wtx-plugins/releases/latest/download/WTXKits-1.0.0.jar) |
+| WTXCrates | [WTXCrates-1.0.0.jar](https://github.com/wertix9-dev/wtx-plugins/releases/latest/download/WTXCrates-1.0.0.jar) |
+| WTXPlayerShops | [WTXPlayerShops-1.0.0.jar](https://github.com/wertix9-dev/wtx-plugins/releases/latest/download/WTXPlayerShops-1.0.0.jar) |
+| WTXChat | [WTXChat-1.0.0.jar](https://github.com/wertix9-dev/wtx-plugins/releases/latest/download/WTXChat-1.0.0.jar) |
+| WTXQuests | [WTXQuests-1.0.0.jar](https://github.com/wertix9-dev/wtx-plugins/releases/latest/download/WTXQuests-1.0.0.jar) |
+| WTXBounties | [WTXBounties-1.0.0.jar](https://github.com/wertix9-dev/wtx-plugins/releases/latest/download/WTXBounties-1.0.0.jar) |
+| WTXMail | [WTXMail-1.0.0.jar](https://github.com/wertix9-dev/wtx-plugins/releases/latest/download/WTXMail-1.0.0.jar) |
+| WTXSpawn | [WTXSpawn-1.0.0.jar](https://github.com/wertix9-dev/wtx-plugins/releases/latest/download/WTXSpawn-1.0.0.jar) |
+| WTXPlaytime | [WTXPlaytime-1.0.0.jar](https://github.com/wertix9-dev/wtx-plugins/releases/latest/download/WTXPlaytime-1.0.0.jar) |
+| WTXBackpacks | [WTXBackpacks-1.0.0.jar](https://github.com/wertix9-dev/wtx-plugins/releases/latest/download/WTXBackpacks-1.0.0.jar) |
 
 The WTXGuard Anti-Xray examples are attached as well:
 [paper-world-defaults example](https://github.com/wertix9-dev/wtx-plugins/releases/latest/download/WTXGuard-paper-world-defaults-anti-xray.example.yml) ·
@@ -64,6 +74,16 @@ The WTXGuard Anti-Xray examples are attached as well:
 - **WTXGraves** — death graves with anti-dupe and anti-item-loss guarantees
 - **WTXWaypoints** — public paid teleport network
 - **WTXDuels** — 1v1 duels with escrowed bets
+- **WTXKits** — kits with cooldowns and one-time claims
+- **WTXCrates** — weighted crate rewards with physical keys
+- **WTXPlayerShops** — player-run chest/barrel shops
+- **WTXChat** — channels, anti-spam, anti-advertising, mentions
+- **WTXQuests** — daily quests with rewards
+- **WTXBounties** — escrowed bounties with anti-farm guards
+- **WTXMail** — offline mail with money and item attachments
+- **WTXSpawn** — spawn points, first-join spawn, void rescue, spawn protection
+- **WTXPlaytime** — AFK-aware playtime rewards
+- **WTXBackpacks** — personal backpacks sized by permission
 
 ## What is included
 
@@ -92,6 +112,16 @@ The WTXGuard Anti-Xray examples are attached as well:
 | **WTXGraves** | Death graves with one-viewer locks, save-before-give and expiry that never discards items |
 | **WTXWaypoints** | Public paid teleport network with GUI, cooldown and safe-destination checks |
 | **WTXDuels** | 1v1 duels with escrowed bets, arenas and crash-safe refunds |
+| **WTXKits** | Configurable kits with cooldowns, one-time claims and rollback on failure |
+| **WTXCrates** | Weighted crate rewards with PDC-validated keys and read-only previews |
+| **WTXPlayerShops** | Player-run buy shops in chests/barrels with strict transaction rollback |
+| **WTXChat** | Channels (global/local/trade), anti-spam, anti-advertising and mentions |
+| **WTXQuests** | Daily quests with progress GUI and money/command rewards |
+| **WTXBounties** | Escrowed player bounties with anti-farm guards and expiry refunds |
+| **WTXMail** | Offline mail with money and item attachments, claim-before-pay |
+| **WTXSpawn** | Spawn points, first-join spawn, void rescue and spawn protection |
+| **WTXPlaytime** | AFK-aware playtime tracking with automatic rewards |
+| **WTXBackpacks** | Personal backpacks sized by permission with a one-viewer lock |
 
 ## Requirements
 
