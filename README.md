@@ -1,10 +1,14 @@
 # WTX-SMP Plugin Suite
 
-A polished, crossplay-ready plugin suite for **Paper 1.21.6** survival SMP servers, built and maintained
-for a live PvP SMP. Restrained black/gray/white branding, Vault economy integration, and one coherent tag
+A polished, crossplay-ready plugin suite for **Paper 26.3** survival SMP servers, built and maintained for
+a live PvP SMP. Restrained black/gray/white branding, Vault economy integration, and one coherent tag
 system instead of several plugins fighting over the same prefixes.
 
 **All plugins are free to download and use on your server.**
+
+> **Compatibility:** the current release targets **Paper 26.3 / Java 25**. For **Paper 1.21.6 / Java 21**
+> download the older release [`v1.0.0`](https://github.com/wertix9-dev/wtx-plugins/releases/tag/v1.0.0)
+> instead — the two builds are not interchangeable.
 
 ## Download
 
@@ -125,7 +129,7 @@ The WTXGuard Anti-Xray examples are attached as well:
 
 ## Requirements
 
-- Paper 1.21.6 (or a compatible 1.21.x build) on **Java 21**
+- **Paper 26.3** on **Java 25** for the current release (`v1.0.0` = Paper 1.21.6 / Java 21)
 - **Vault** plus a Vault-compatible economy provider (EssentialsX Economy works) for all Money features.
   These are third-party plugins and are **not** bundled here:
   [Vault](https://www.spigotmc.org/resources/vault.34315/) ·
