@@ -89,13 +89,22 @@ The WTXGuard Anti-Xray examples are attached as well:
 - **WTXPlaytime** — AFK-aware playtime rewards
 - **WTXBackpacks** — personal backpacks sized by permission
 
+### Latest polish
+
+- **WTXShop:** 75 pets (was 40); pets walk behind you and teleport to you when they fall behind, when you
+  teleport/fly away, or when they get stuck
+- **Animated staff tags:** OWNER, MANAGEMENT, ADMIN, MODERATOR, SUPPORT, CONTENT CREATOR cycle through
+  3–4 colours; `/wtxnametag set <player> management` and `moderator` are accepted
+- **WTXScoreboard:** overhead name tags refresh separately from the sidebar so animated tags actually animate
+- Fixed invalid YAML in the shipped scoreboard config (fresh installs now get the full 15-row layout)
+
 ## What is included
 
 | Plugin | What it does |
 | --- | --- |
 | **WTXCore** | Suite helper: `/wtx version`, `/wtx list` (with update status), `/wtx reloadall` |
 | **WTXScoreboard** | Compact grayscale sidebar (team, kills, deaths, Money, Points, online), TAB header/list, rank tags, optional chat tags, per-player `/wtxsb toggle` |
-| **WTXShop** | WTX Points shop with `/dailypoints`, 40 pets, 40 particle trails, 40 auras, 48 cosmetic titles with animated colour styles |
+| **WTXShop** | WTX Points shop with `/dailypoints`, 75 pets, 40 particle trails, 40 auras, 48 cosmetic titles with animated colour styles |
 | **WTXMoneyShop** | Category shop for every item with quantity buttons and search, `/worth`, `/sell`, `/pay`, `/moneygive`, auction house with search, taxes, expiry and transaction history |
 | **WTXTeams** | Teams, filtered names, colours, shared bank, paid chunk claims, team homes and waystones, scheduled raids with real kill-based outcomes, `/teamlist`, `/teamtop` |
 | **WTXItemControl** | Configurable banned materials and a configurable Mace damage nerf |
