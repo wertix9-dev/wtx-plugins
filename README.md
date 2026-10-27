@@ -143,6 +143,8 @@ The WTXGuard Anti-Xray examples are attached as well:
   These are third-party plugins and are **not** bundled here:
   [Vault](https://www.spigotmc.org/resources/vault.34315/) ·
   [EssentialsX](https://essentialsx.net/downloads.html)
+  — *on Paper 26.3 use VaultUnlocked (lists 26.3) and EssentialsX 2.22.0 (latest stable, officially up to
+  26.1.2; if Money features misbehave, check the economy provider first).*
 - Optional: **PlaceholderAPI** (scoreboard placeholders), **Floodgate/Geyser** (Bedrock markers crossplay)
 
 ## Installation
